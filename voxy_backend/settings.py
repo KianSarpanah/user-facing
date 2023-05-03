@@ -15,9 +15,8 @@ DEBUG = config('DEBUG', True)
 ALLOWED_HOSTS = [
     config('DOMAIN_NAME', default='localhost'),
     'localhost',
-    '0.0.0.0',
+    '0.0.0.0',  # noqa: S104
     '127.0.0.1',
-    "0.0.0.0:8000"
 ]
 
 
