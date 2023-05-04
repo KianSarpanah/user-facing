@@ -29,9 +29,10 @@ function WordCountForm() {
         <form onSubmit={handleSubmit}>
             <h1>Number of Words: </h1>
             <h1>{wordCount}</h1>
-            <textarea value={text} onChange={handleTextChange} rows='20' cols='50' />
+            <textarea value={text} onChange={handleTextChange} rows='20' cols='90' />
             <br></br>
-            <button type="submit">Count words</button>
+            <br></br>
+            <button  type="submit">Count words</button>
         </form>
     );
 }

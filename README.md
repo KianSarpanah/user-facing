@@ -10,12 +10,13 @@ This app is a form with a textbox to count the number of words in inserted text.
 - `docker-compose up --build web`
 - In a sepprate terminal run FE server as follows:
 - `cd voxy_frontend/wordCountFrontend`
-- `yarn && yarn dev`
+- `yarn &&  yarn build && yarn dev`
 
 **Programing Language:**
 
 - Python version 3.8.9
 - React
+- Django
 
 **Virtual Environment:**
 
@@ -34,7 +35,6 @@ This app is a form with a textbox to count the number of words in inserted text.
 **Notes:**
 
 - This code can be improved, but consider it takes more time.
-- 
 - Authentication, Database are not included.
 - This app is a simple version of bundled FE and BE, so we can structure this code base on the scale of our idea and bussiness.
 - in  ` /docker/config/.env` we need these params:
@@ -46,11 +46,9 @@ DOMAIN_NAME=
 CURRENT_ENVIRONMENT=local
 ```
 
-###### **Issue with Docker:**
+##### **Issue with Docker:**
 
 just run server directly, however before:
-
-#TODO we can discuss later
 
 * RUN ` pip3 install poetry=="1.4.1"`
 * `poetry shell`
