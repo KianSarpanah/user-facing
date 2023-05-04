@@ -16,7 +16,6 @@ This app is a form with a textbox to count the number of words in inserted text.
 
 - Python version 3.8.9
 - React
-- Django
 
 **Virtual Environment:**
 
@@ -24,6 +23,7 @@ This app is a form with a textbox to count the number of words in inserted text.
 
 **Libraries:**
 
+- Django
 - Vitejs
 - python-decouple
 
